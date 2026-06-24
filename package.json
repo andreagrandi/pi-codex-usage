@@ -1,0 +1,44 @@
+{
+  "name": "@andreagrandi/pi-codex-usage",
+  "version": "0.1.0",
+  "description": "Pi extension that shows Codex subscription usage and emits compact statusline chips.",
+  "type": "module",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "pi",
+    "codex",
+    "usage",
+    "status"
+  ],
+  "files": [
+    "src",
+    "README.md",
+    "NOTICE.md",
+    "LICENSE"
+  ],
+  "pi": {
+    "extensions": [
+      "./src/codex-usage.ts"
+    ]
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "0.79.8",
+    "@types/node": "25.6.0",
+    "typescript": "6.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreagrandi/pi-codex-usage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andreagrandi/pi-codex-usage/issues"
+  },
+  "homepage": "https://github.com/andreagrandi/pi-codex-usage#readme",
+  "author": "andreagrandi"
+}
